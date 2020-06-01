@@ -62,6 +62,12 @@ namespace Quanlicafe
                         item = new ListViewItem(arr);
                         a.Items.Add(item);
                     }
+                    for (int i = 0; i < a.Items.Count; i++)
+                        if (int.Parse(a.Items[i].SubItems[1].Text) <= 0)
+                        {
+                            a.Items[i].Remove();
+                            i--;
+                        }
                 }
             int tong = tongtien(a);
             return tong;

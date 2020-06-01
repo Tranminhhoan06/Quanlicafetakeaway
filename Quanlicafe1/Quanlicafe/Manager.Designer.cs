@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnErase = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.btnAdd = new System.Windows.Forms.Button();
             this.cbCafe = new System.Windows.Forms.ComboBox();
@@ -49,7 +48,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnErase);
             this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.btnAdd);
             this.panel1.Controls.Add(this.cbCafe);
@@ -58,18 +56,19 @@
             this.panel1.Size = new System.Drawing.Size(344, 88);
             this.panel1.TabIndex = 0;
             // 
-            // btnErase
-            // 
-            this.btnErase.Location = new System.Drawing.Point(266, 52);
-            this.btnErase.Name = "btnErase";
-            this.btnErase.Size = new System.Drawing.Size(75, 33);
-            this.btnErase.TabIndex = 3;
-            this.btnErase.Text = "Xóa";
-            this.btnErase.UseVisualStyleBackColor = true;
-            // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(3, 30);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(139, 20);
             this.numericUpDown1.TabIndex = 2;
@@ -83,7 +82,7 @@
             // 
             this.btnAdd.Location = new System.Drawing.Point(185, 52);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 33);
+            this.btnAdd.Size = new System.Drawing.Size(155, 33);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -188,7 +187,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnErase;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.ComboBox cbCafe;

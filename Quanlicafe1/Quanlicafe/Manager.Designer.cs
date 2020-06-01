@@ -39,8 +39,8 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnCheck = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnCheck = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -87,10 +87,17 @@
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // cbCafe
             // 
             this.cbCafe.FormattingEnabled = true;
+            this.cbCafe.Items.AddRange(new object[] {
+            "Cà phê sữa",
+            "Cà phê đá",
+            "Sữa tươi",
+            "Trà chanh",
+            "Nước cam"});
             this.cbCafe.Location = new System.Drawing.Point(3, 3);
             this.cbCafe.Name = "cbCafe";
             this.cbCafe.Size = new System.Drawing.Size(338, 21);
@@ -141,6 +148,13 @@
             this.panel3.Size = new System.Drawing.Size(343, 44);
             this.panel3.TabIndex = 2;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(14, 10);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(165, 20);
+            this.textBox1.TabIndex = 3;
+            // 
             // btnCheck
             // 
             this.btnCheck.Location = new System.Drawing.Point(185, 3);
@@ -149,13 +163,6 @@
             this.btnCheck.TabIndex = 2;
             this.btnCheck.Text = "Thanh toán";
             this.btnCheck.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(14, 10);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 20);
-            this.textBox1.TabIndex = 3;
             // 
             // fManager
             // 

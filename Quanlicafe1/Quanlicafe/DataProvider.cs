@@ -39,5 +39,18 @@ namespace Quanlicafe
             }
             return i;
         }
+        public ListViewItem them(string name, string num)
+        {
+            DataProvider d = new DataProvider();
+            //d.menu(cbCafe.Text);
+            string[] arr = new string[3];
+            ListViewItem item;
+            arr[0] = name;
+            arr[1] = num;
+            arr[2] = (int.Parse(num) * d.menu(name)).ToString();
+            item = new ListViewItem(arr);
+            return item;
+        }
+
     }
 }

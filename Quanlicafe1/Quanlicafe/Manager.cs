@@ -20,15 +20,13 @@ namespace Quanlicafe
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            DataProvider d = new DataProvider();
-            //d.menu(cbCafe.Text);
-            string[] arr = new string[3];
-            ListViewItem item;
-            arr[0] = cbCafe.Text;
-            arr[1] = numericUpDown1.Value.ToString();
-            arr[2] = (numericUpDown1.Value * d.menu(cbCafe.Text)).ToString();
-            item = new ListViewItem(arr);
-            lsvBill.Items.Add(item);
+            if (cbCafe.Text != "")
+            {
+                DataProvider d = new DataProvider();
+                string name = cbCafe.Text;
+                string num = numericUpDown1.Value.ToString();
+                lsvBill.Items.Add(d.them(name, num));
+            }
         }
 
     }

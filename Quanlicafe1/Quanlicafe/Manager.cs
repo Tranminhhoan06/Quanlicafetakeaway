@@ -24,7 +24,7 @@ namespace Quanlicafe
                 DataProvider d = new DataProvider();
                 string name = cbCafe.Text;
                 string num = numericUpDown1.Value.ToString();
-                d.them(name, num, lsvBill);
+                textBox1.Text = d.them(name, num, lsvBill).ToString();
 
             }
         }

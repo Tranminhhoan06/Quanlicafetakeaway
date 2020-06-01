@@ -63,13 +63,15 @@ namespace Quanlicafe
                         a.Items.Add(item);
                     }
                 }
-            
+            int tong = tongtien(a);
+            return tong;
         }
-        public void tongtien(ListView a)
+        public int tongtien(ListView a)
         {
             int total = 0;
             for (int i = 0; i < a.Items.Count; i++)
                 total = total + int.Parse(a.Items[i].SubItems[2].Text);
+            return total;
         }
 
     }

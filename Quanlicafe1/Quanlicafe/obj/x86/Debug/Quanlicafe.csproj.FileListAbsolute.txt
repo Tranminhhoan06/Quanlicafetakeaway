@@ -29,3 +29,4 @@ D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Qua
 D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
 D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.exe
 D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.csprojResolveAssemblyReference.cache

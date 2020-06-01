@@ -33,12 +33,11 @@ namespace Quanlicafe
         {
             string username = txbUserName.Text;
             string pass = txbPassword.Text;
-            //string query = "SELECT * FROM dbo.TAIKHOAN WHERE UNAME = '" + username + "' and PASS = '" + pass + "'";
-            //DataProvider provider = new DataProvider();
-            //DataTable da = provider.Execute(query);
-            //login.kiemtra(username, pass);
             DataProvider d = new DataProvider();
-            d.login(username, pass);
+            if (username != "" && pass != "")
+                d.login(username, pass);
+            else
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin");
         }
 
         private void fLogin_Load(object sender, EventArgs e)

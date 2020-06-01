@@ -31,10 +31,14 @@ namespace Quanlicafe
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            //int total = 0;
-            //for (int i = 0; i < lsvBill.Items.Count; i++)
-            //    total = total + int.Parse(lsvBill.Items[i].SubItems[2].Text);
-            //textBox1.Text = total.ToString();
+            if (MessageBox.Show("Xác nhận đơn hàng", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                MessageBox.Show("Đã lưu đơn hàng");
+                lsvBill.Items.Clear();
+                numericUpDown1.Value = 1;
+                cbCafe.Text = "";
+                textBox1.Text = "";
+            }
         }
 
     }

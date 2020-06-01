@@ -31,7 +31,7 @@ namespace Quanlicafe
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Xác nhận đơn hàng", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            if (MessageBox.Show("Xác nhận đơn hàng. \n Tổng đơn: " + textBox1.Text, "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
             {
                 MessageBox.Show("Đã lưu đơn hàng");
                 lsvBill.Items.Clear();
@@ -40,6 +40,7 @@ namespace Quanlicafe
                 textBox1.Text = "";
             }
         }
+
 
     }
 }

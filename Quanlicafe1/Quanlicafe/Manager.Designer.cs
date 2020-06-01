@@ -163,6 +163,7 @@
             this.btnCheck.TabIndex = 2;
             this.btnCheck.Text = "Thanh toán";
             this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // fManager
             // 

@@ -39,17 +39,38 @@ namespace Quanlicafe
             }
             return i;
         }
-        public ListViewItem them(string name, string num)
+        public void them(string name, string num,ListView a)
         {
             DataProvider d = new DataProvider();
-            //d.menu(cbCafe.Text);
             string[] arr = new string[3];
             ListViewItem item;
-            arr[0] = name;
-            arr[1] = num;
-            arr[2] = (int.Parse(num) * d.menu(name)).ToString();
-            item = new ListViewItem(arr);
-            return item;
+            int k = 0;
+            if (int.Parse(num) != 0)
+                {
+                    for (int i = 0; i < a.Items.Count; i++)
+                        if (name == a.Items[i].SubItems[0].Text)
+                        {
+                            a.Items[i].SubItems[1].Text = (int.Parse(a.Items[i].SubItems[1].Text) + int.Parse(num)).ToString();
+                            a.Items[i].SubItems[2].Text = (int.Parse(a.Items[i].SubItems[1].Text) * d.menu(name)).ToString();
+                            k = 1;
+                        }
+                    if (k == 0)
+                    {
+                        arr[0] = name;
+                        arr[1] = num;
+                        arr[2] = (int.Parse(num) * d.menu(name)).ToString();
+                        item = new ListViewItem(arr);
+                        a.Items.Add(item);
+                    }
+
+                }
+        }
+        public int tongtien(ListView a)
+        {
+            int total = 0;
+            for (int i = 0; i < a.Items.Count; i++)
+                total = total + int.Parse(a.Items[i].SubItems[2].Text);
+            return total;
         }
 
     }

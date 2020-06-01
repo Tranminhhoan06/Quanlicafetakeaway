@@ -46,7 +46,7 @@ namespace Quanlicafe
         private void fLogin_Load(object sender, EventArgs e)
         {
             txbUserName.Text = "ADMIN";
-            txbPassword.Text = "ABCD1234";
+            txbPassword.Text = "1234";
         }
 
     }

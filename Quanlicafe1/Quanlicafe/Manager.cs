@@ -41,6 +41,11 @@ namespace Quanlicafe
             }
         }
 
+        private void cbCafe_TextChanged(object sender, EventArgs e)
+        {
+            numericUpDown1.Value = 1;
+        }
+
 
     }
 }

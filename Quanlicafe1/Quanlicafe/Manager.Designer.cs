@@ -101,6 +101,7 @@
             this.cbCafe.Name = "cbCafe";
             this.cbCafe.Size = new System.Drawing.Size(338, 21);
             this.cbCafe.TabIndex = 0;
+            this.cbCafe.TextChanged += new System.EventHandler(this.cbCafe_TextChanged);
             // 
             // panel2
             // 

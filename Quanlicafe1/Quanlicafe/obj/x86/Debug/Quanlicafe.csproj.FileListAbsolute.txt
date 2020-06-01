@@ -1,0 +1,31 @@
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.exe
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.pdb
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fLogin.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fProfile.resources
+C:\Users\Admin\Desktop\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fBill.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.exe
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fBill.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fProfile.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fLogin.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+C:\Users\user\Downloads\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csprojResolveAssemblyReference.cache
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.fLogin.resources
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.exe
+D:\github\New folder\Quanlicafetakeaway\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.pdb

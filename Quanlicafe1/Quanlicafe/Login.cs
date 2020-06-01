@@ -37,10 +37,8 @@ namespace Quanlicafe
             //DataProvider provider = new DataProvider();
             //DataTable da = provider.Execute(query);
             //login.kiemtra(username, pass);
-                fManager f = new fManager();
-                this.Hide();
-                f.ShowDialog();
-                this.Show();
+            DataProvider d = new DataProvider();
+            d.login(username, pass);
         }
 
         private void fLogin_Load(object sender, EventArgs e)

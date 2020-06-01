@@ -17,7 +17,6 @@ namespace Quanlicafe
             InitializeComponent();
             
         }
-        int total = 0;
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (cbCafe.Text != "")
@@ -26,20 +25,7 @@ namespace Quanlicafe
                 string name = cbCafe.Text;
                 string num = numericUpDown1.Value.ToString();
                 d.them(name, num, lsvBill);
-                //int k = 0;
-                //if (int.Parse(num) != 0)
-                //{
-                //    for (int i = 0; i < lsvBill.Items.Count; i++)
-                //        if (name == lsvBill.Items[i].SubItems[0].Text)
-                //        {
-                //            lsvBill.Items[i].SubItems[1].Text = (int.Parse(lsvBill.Items[i].SubItems[1].Text) + int.Parse(num)).ToString();
-                //            arr[2] = (int.Parse(num) * d.menu(name)).ToString();
-                //            k = 1;
-                //        }
-                //    if (k == 0)
-                //        lsvBill.Items.Add(d.them(name, num));
-                //}
-                //textBox1.Text = d.tongtien(lsvBill).ToString();
+
             }
         }
 

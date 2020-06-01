@@ -39,7 +39,7 @@ namespace Quanlicafe
             }
             return i;
         }
-        public void them(string name, string num,ListView a)
+        public int them(string name, string num,ListView a)
         {
             DataProvider d = new DataProvider();
             string[] arr = new string[3];
@@ -62,15 +62,14 @@ namespace Quanlicafe
                         item = new ListViewItem(arr);
                         a.Items.Add(item);
                     }
-
                 }
+            
         }
-        public int tongtien(ListView a)
+        public void tongtien(ListView a)
         {
             int total = 0;
             for (int i = 0; i < a.Items.Count; i++)
                 total = total + int.Parse(a.Items[i].SubItems[2].Text);
-            return total;
         }
 
     }

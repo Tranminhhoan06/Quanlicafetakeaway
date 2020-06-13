@@ -50,10 +50,18 @@ namespace Quanlicafe
                     for (int i = 0; i < a.Items.Count; i++)
                         if (name == a.Items[i].SubItems[0].Text)
                         {
-                            a.Items[i].SubItems[1].Text = (int.Parse(a.Items[i].SubItems[1].Text) + int.Parse(num)).ToString();
-                            a.Items[i].SubItems[2].Text = (int.Parse(a.Items[i].SubItems[1].Text) * d.menu(name)).ToString();
-                            k = 1;
-                        }
+                            if ((int.Parse(a.Items[i].SubItems[1].Text) + int.Parse(num)) > 50)
+                            {
+                                MessageBox.Show("Quá số lượng cho phép");
+                                k = 1;
+                            }
+                            else
+                            {
+                                a.Items[i].SubItems[1].Text = (int.Parse(a.Items[i].SubItems[1].Text) + int.Parse(num)).ToString();
+                                a.Items[i].SubItems[2].Text = (int.Parse(a.Items[i].SubItems[1].Text) * d.menu(name)).ToString();
+                                k = 1;
+                            }
+                    }
                     if (k == 0)
                     {
                         arr[0] = name;
